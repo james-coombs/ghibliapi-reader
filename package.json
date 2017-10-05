@@ -1,0 +1,32 @@
+{
+  "name": "ghibli-next",
+  "version": "1.0.0",
+  "description": "<h2>A reader for the ghibliapi, built with next.js</h2>",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.16.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-react": "^6.23.0",
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.28.0",
+    "file-loader": "^0.11.1",
+    "next": "^2.1.1",
+    "next-js": "^0.9.0-alpha",
+    "react": "^15.5.3",
+    "react-bootstrap": "^0.30.8",
+    "react-dom": "^15.5.3",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC"
+}
