@@ -1,11 +1,11 @@
 import React from 'react';
 import Head from 'next/head';
-import Nav from '../components/nav';
+import Nav from '../src/components/shared/nav';
 
 export default class Index extends React.Component {
 	render() {
 		return (
-			<div>
+			<div id="root">
 			<Nav />
 				<h3>
 					Index

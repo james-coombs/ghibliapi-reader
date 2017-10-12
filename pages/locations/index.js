@@ -1,8 +1,8 @@
 import React from 'react';
 import axios from 'axios';
-import PageHead from '../../components/head';
 import Link from 'next/link';
-import Nav from '../../components/nav';
+import PageHead from '../../src/components/shared/head';
+import Nav from '../../src/components/shared/nav';
 
 class InfoCard extends React.Component {
 	constructor() {
