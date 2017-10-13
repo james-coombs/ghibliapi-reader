@@ -6,7 +6,7 @@ export default class PageHead extends React.Component {
 		return (
 			<div>
 				<Head>
-					<title>ghibli-api-next</title>
+					<title>Ghibli Reader</title>
 				</Head>
 			</div>
 		);
